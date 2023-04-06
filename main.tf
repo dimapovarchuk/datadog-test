@@ -8,9 +8,9 @@ terraform {
 
 # Configure the Datadog provider
 provider "datadog" {
-  api_key = "${var.datadog_api_key}"
-  app_key = "${var.datadog_app_key}"
-  api_url = "${var.datadog_api_url}"
+  api_key = "$DATADOG_API_KEY"
+  app_key = "$DATADOG_APP_KEY"
+  api_url = "$DATADOG_APP_URL"
 }
 
 
