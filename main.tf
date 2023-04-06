@@ -8,9 +8,9 @@ terraform {
 
 # Configure the Datadog provider
 provider "datadog" {
-  api_key = "c7c49ce7575c2430180571a89ed113d8"
-  app_key = "5e99956aabb34080d395ad5d4315785fdbe19017"
-  api_url = "https://api.datadoghq.eu/"
+  api_key = ""
+  app_key = ""
+  api_url = ""
 }
 
 
